@@ -1,0 +1,96 @@
+body {
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+header {
+    padding: 20px 100px;
+    background-color: #099;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+header h1{
+    color:black;
+    flex: 2;
+    
+}
+
+header nav {
+    flex: 2
+}
+
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+figure {
+    background: url(../images/background.jpg); 
+    background-size: cover;
+    height: 100px;
+    margin: 0;
+    
+}
+.about-me {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.collapsible {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.background {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: gainsboro;
+    transition: max-height 0.2s ease-out;
+}
+
+.active, .collapsible:hover {
+    background-color: #555
+}
+
+.about-me h2 {
+    flex: 1
+}
+
+.about-me p {
+    text-align: center; 
+    flex: 5;
+
+}
+
+.work h2 {
+    flex: 1;
+
+}
+
+.class h2 {
+    flex: 1;
+
+}
+
+.contact-me {
+    flex: 1;
+}
